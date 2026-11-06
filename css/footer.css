@@ -34,9 +34,14 @@
 .social-list--footer {
   margin-top: 0;
   justify-content: flex-start;
+  gap: 16px;
+}
+.social-list--footer .social-icon {
+  width: 24px;
+  height: 24px;
 }
 .social-link--footer {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #4d5ae5;
 }
 .social-link--footer:hover,
 .social-link--footer:focus {

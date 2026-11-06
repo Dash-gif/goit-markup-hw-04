@@ -20,8 +20,8 @@
 }
 .portfolio-item:hover,
 .portfolio-item:focus-within {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .portfolio-image-wrap {
   position: relative;
@@ -38,11 +38,7 @@
   align-items: center;
   padding: 40px 32px;
   color: #f4f4fd;
-  background: linear-gradient(
-    180deg,
-    rgba(77, 90, 229, 0.7),
-    rgba(77, 90, 229, 0.7)
-  );
+  background-color: #4d5ae5;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
