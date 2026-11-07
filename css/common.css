@@ -123,6 +123,11 @@ svg {
   color: #f4f4fd;
 }
 
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  color: #f4f4fd;
+}
+
 .social-icon {
   width: 16px;
   height: 16px;
